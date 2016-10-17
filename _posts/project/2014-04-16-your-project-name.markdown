@@ -1,12 +1,12 @@
 ---
 layout: project
 title:  "MIDPath"
-url: http://midpath.thenesis.org
 date:   2014-04-25 16:54:46
 author: Marcel Newman
 categories:
 - project
 img: portfolio_09.jpg
+url: "http://midpath.thenesis.org"
 thumb: thumb02.jpg
 carousel:
 - single01.jpg
