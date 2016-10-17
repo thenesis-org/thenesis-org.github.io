@@ -2,7 +2,7 @@
 
 # Site settings
 title: THENESIS
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Various projects without the dependency hassle"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://www.thenesis.org"
