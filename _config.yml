@@ -4,7 +4,7 @@
 title: THENESIS
 description: "Various projects without the dependency hassle"
 analytics: UA-2186699-16 #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/" #important: start with /
+baseurl: "" #important: start with /
 url: "http://www.thenesis.org"
 
 # Build settings
