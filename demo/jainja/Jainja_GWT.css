@@ -10,6 +10,14 @@ h1 {
   text-align: center;
 }
 
+/*
+p {
+    font-size: 10vw;
+}
+
+body { font-size: 10em; }
+*/
+
 .sendButton {
   display: block;
   font-size: 16pt;
@@ -17,12 +25,22 @@ h1 {
 
 /** Most GWT widgets already have a style name defined */
 .gwt-DialogBox {
-  width: 400px;
+/*  width: 50%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+*/
+   font-weight: bold;
 }
 
-.dialogVPanel {
-  margin: 5px;
+.gwt-Button { 
+	width: 150px;
+	height: 100px;
+	font-size: 2em;
 }
+
+/*.dialogVPanel {
+  margin: 5px;
+}*/
 
 .serverResponseLabelError {
   color: red;
