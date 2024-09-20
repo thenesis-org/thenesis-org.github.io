@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main page</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<style>
+		* { margin:0; padding:0; } /* to remove the top and left whitespace */
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+			border: 0;
+			overflow: hidden;
+			/*  Disable scrollbars */
+			display: block;
+			/* No floating content on sides */
+        }
+    </style>
+	<script>		
+		function startJainjaVM() {
+			//const args = ["-cp", "rt.jar", "jainja.midp.jagt.MIDletLauncher", "test.midp.Testris"];
+			//const args = ["-cp", "rt.jar", "org.thenesis.thinja.demos.ThinjaTest"];
+			//const args = ["-cp", "rt.jar", "test.codename1.BaseDemo"];
+			//const args = ["-cp", "rt.jar", "test.swing.SwingTest"];
+			//const args = ["-cp", "rt.jar", "micromod.Player", "-demo"];
+			//const args = ["-cp", "rt.jar", "se.arktos.meboy.MeBoyAWT"];
+			const args = ["-cp", "rt.jar", "org.thenesis.occultation.gui.Occultation"];
+			//const args = ["-cp", "rt.jar", "test.sound.ClipTest"];
+			//const args = ["-cp", "rt.jar", "comet2d.tilegame.GameManager"];
+			//const args = ["-cp", "rt.jar", "tea8.jagt.AdvancedJAGTChip8Emulator"];
+			
+			
+			main(args);
+		}
+	</script> 
+	<!--
+    <script type="text/javascript" charset="utf-8" src="teavm/runtime.js"></script>
+	-->
+    <script type="text/javascript" charset="utf-8" src="teavm/classes.js"></script>
+  </head>
+  <body onload="startJainjaVM()">
+    <!--
+	<h1>Jainja JVM</h1>
+	-->
+    <div>
+      <canvas id="jainja-canvas" width="600" height="600"></canvas>
+    </div>
+  </body>
+</html>
